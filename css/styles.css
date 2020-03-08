@@ -45,7 +45,7 @@ font-family: "Roboto", "Helvetica", "Sans-serif";
 }
 
 .review-bg{
-    background: #007b5e;
+    background: #d1cece;
 }
 
 .about-bg{
@@ -107,8 +107,12 @@ p {
 }
 
 .figure-caption{
-
+   
     text-align: center;
+}
+
+.text-light{
+    color: #042f4b !important;
 }
 p.large-paragraph {
     font-size: 1.25rem;
@@ -120,13 +124,13 @@ header ul li {
     margin: 0 15px;
 }
 
-.heading-green {
-    color: #007b5e;
+.heading-blue {
+    color: #042f4b;
 }
 
 /* buttons*/
 button.rounded {
-    background: #585756;
+    background: #042f4b;
     border: none;
     color: #fff;
     font-size: 14px;
@@ -170,6 +174,15 @@ button.rounded {
     color: #fff;
     font-weight: 800;
     letter-spacing: 0.5rem;;
+}
+
+.bg-dark {
+    transition: 0.5s ease;
+    background: transparent !important;
+}
+
+.bg-dark.scrolled {
+  background: #042f4b !important;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active,
@@ -217,7 +230,7 @@ section{
 }
 section .section-title{
 	text-align:center;
-	color:#007b5e;
+	color:#465881;
 	margin-bottom:50px;
 	text-transform:uppercase;
 }
@@ -242,7 +255,7 @@ section .section-title{
     position: relative;
 }
 #what-we-do .card .card-block a{
-	color: #007b5e !important;
+	color: #18274d !important;
 	font-weight:700;
 	text-decoration:none;
 }
@@ -259,7 +272,7 @@ section .section-title{
 	font-family: FontAwesome;
     position: absolute;
     font-size: 39px;
-    color: #007b5e;
+    color: #042f4b;
     left: 0;
 	-webkit-transition: -webkit-transform .2s ease-in-out;
     transition:transform .2s ease-in-out;
@@ -290,4 +303,5 @@ section .section-title{
 	transition: .5s all ease;
 }
 
-/*news*/
+/*Contact*/
+
