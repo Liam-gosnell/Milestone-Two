@@ -127,6 +127,10 @@ p {
 .text-light{
     color: #042f4b !important;
 }
+
+.text-light2{
+    color: #fff !important;
+}
 p.large-paragraph {
     font-size: 1.25rem;
     font-weight: 300;
@@ -145,6 +149,8 @@ button.rounded {
     cursor: pointer;
     
 }
+
+
 
 /*What we do */
 
@@ -288,6 +294,10 @@ section .section-title{
 
 .nav-link {
     padding: .2rem 1rem;
+}
+
+#the-best{
+    display: block;
 }
 
 .nav-link.active, .nav-link:focus {
