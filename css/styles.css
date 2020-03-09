@@ -113,6 +113,16 @@ header ul li {
     color: #042f4b;
 }
 
+.carousel-caption{
+    bottom: 30%;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-family: "Roboto"
+}
+
 /* p , text , captions*/
 p {
     color: #585756;
@@ -136,20 +146,47 @@ p.large-paragraph {
     font-weight: 300;
 }
 
+
 /* buttons*/
 
-button.rounded {
-    background: #042f4b;
-    border: none;
+
+
+.section2_btn {
+    border-radius: 35px;
+    padding: 10px 12px;
+    width: 100%;
+    height: 52px;
     color: #fff;
-    font-size: 14px;
-    border-radius: 30px;
-    padding: 10px 30px;
-    line-height: 1.5;
-    cursor: pointer;
-    
+    font-size: 16px;
+    margin-bottom: 42px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s
 }
 
+.btn-rounded:hover {
+    background: #35d8a1;
+    color: #fff
+}
+
+.btn-rounded {
+    background: transparent;
+    border: 2px solid #35d8a1;
+    color: #35d8a1
+}
+
+.btn55 {
+    background: transparent;
+    border: 2px solid #042f4b ;
+    color: #042f4b ;
+}
+
+.btn55:hover {
+    background: #042f4b ;
+    color: #fff
+}
 
 
 /*What we do */
@@ -241,6 +278,7 @@ section .section-title{
 
 #the-best .flex > img {
     width: 47%;
+    height: 70%;
 }
 
 #the-best .flex > div {
@@ -326,11 +364,11 @@ section .section-title{
 
 /*Contact*/
 
-#contatti{
+#contact{
   background-color: #042f4b;
   letter-spacing: 2px;
   }
-#contatti a{
+#contact a{
   color: #fff;
   text-decoration: none;
 }
@@ -338,8 +376,8 @@ section .section-title{
 
 @media (max-width: 575.98px) {
 
-  #contatti{padding-bottom: 800px;}
-  #contatti .maps iframe{
+  #contact{padding-bottom: 800px;}
+  #contact .maps iframe{
     width: 100%;
     height: 450px;
   }
@@ -348,9 +386,9 @@ section .section-title{
 
 @media (min-width: 576px) {
 
-   #contatti{padding-bottom: 800px;}
+   #contact{padding-bottom: 800px;}
 
-   #contatti .maps iframe{
+   #contact .maps iframe{
      width: 100%;
      height: 450px;
    }
@@ -358,18 +396,18 @@ section .section-title{
 
 @media (min-width: 768px) {
 
-  #contatti{padding-bottom: 350px;}
+  #contact{padding-bottom: 350px;}
 
-  #contatti .maps iframe{
+  #contact .maps iframe{
     width: 100%;
     height: 850px;
   }
 }
 
 @media (min-width: 992px) {
-  #contatti{padding-bottom: 200px;}
+  #contact{padding-bottom: 200px;}
 
-   #contatti .maps iframe{
+   #contact .maps iframe{
      width: 100%;
      height: 700px;
    }
