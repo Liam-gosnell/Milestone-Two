@@ -16,10 +16,13 @@
 
     <link rel="stylesheet" href="./js/main.js">
 
-    
+    <body data-spy="scroll" data-target="#navbarSupportedContent"> 
+        
+   
 
 	<!--Nav-->
-	<div class="callout header">
+    
+	<div id="callout" class="callout header">
 		<div class="opaque-overlay">&nbsp;</div>
 		<nav class="navbar bg-dark navbar-expand-lg navbar-dark fixed-top">
 			<div class="container">
@@ -29,25 +32,25 @@
   </button>
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					<ul class="navbar-nav ml-auto ">
+						<li class="nav-item mr-4 ">
+							<a class="nav-link" href="#callout">Home <span class="sr-only">(current)</span></a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item mr-4 ">
 							<a class="nav-link" href="#what-we-do">About</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item mr-4">
 							<a class="nav-link" href="#reviews">Reviews</a>
 						</li>
 
-						<li class="nav-item">
-							<a class="nav-link" href="#">News</a>
+						<li class="nav-item mr-4">
+							<a class="nav-link" href="#news">News</a>
 						</li>
 
-						<li class="nav-item">
+						<li class="nav-item mr-4">
 							<a class="nav-link" href="#media">Media</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item mr-4">
 							<a class="nav-link" href="#contact">Contact</a>
 						</li>
 
@@ -57,9 +60,15 @@
 			</div>
 		</nav>
 
+     
+
+        
+
         <div class="carousel-caption  d-md-block">
                   <h5 class="animated bounceInRight" style="animation-delay: 0.5s">Welcome</h5>
         </div>
+        
+        
         
 	</div>
 
@@ -177,33 +186,28 @@
 	</div>
 	<!-- Closing Reviews-->
 
-	<!--About-->
-
-	<div class="about-bg animated fadeInLeft" style="animation-delay: 0.5s">
-		<section id="the-best">
+    <!-- news -->
+    <div class="about-bg animated fadeInLeft" style="animation-delay: 0.5s">
+		<section id="news">
 			<div class="flex container">
 				<div class="d-none d-lg-block text-center">
 					<img src="./images/thebest.jpeg" style="height:90vh;" alt="Property 1" />
             </div>
-					<div>
-						<h2 class="heading-blue">The Best Daily Drives</h2>
+					<div class="text-center">
+						<h2 class="heading-blue ">The Best Daily Drives</h2>
 						<p class="large-paragraph">What car do you pick as Your daily at this early stage of 2020? These are my top picks:</p>
-						<ul>
+						<ul class="center">
 							<li>Mercedes AMG a45s</li>
 							<li>Audi RS3 Saloon</li>
 							<li>Volkswagen Golf R</li>
 							<li>Bmw M140i</li>
 							<li>Hyundai i30N</li>
 						</ul>
-						<button class="btn-rounded justify-content-center">Learn More</button>
+						<button class="btn-rounded r">Learn More</button>
 					</div>
 				</div>
 		</section>
 	</div>
-	<!--// About-->
-
-    <!-- news -->
-    
 
     <!-- // news -->
 
@@ -263,7 +267,7 @@
          <iframe src="https://maps.google.com/maps?hl=en&amp;q=Carrigane%2C%20Carrigtwohill+(Dailydriverss)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       
-      <div class="col-md-6">
+      <div class="col-md-6" style="padding: 40px;">
         <h2 class="text-uppercase mt-3 font-weight-bold text-white">Contact Us</h2>
         <form action="">
           <div class="row">
@@ -333,6 +337,16 @@
      });
      </script>
 
+     <!--scroll spy-->
+
+     <script>
+     $('body').scrollspy({ target: '#navbarSupportedContent', offset: 70 })
+     </script>
+      <!--smoooth scroll-->
+      <script src="./js/smooth-scroll.js"></script>
+      <script>
+	         var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 	</body>
 
 </html>
