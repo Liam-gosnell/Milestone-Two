@@ -57,7 +57,7 @@ background: url('../images/mountain.jpeg') center center no-repeat fixed;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.container-1 {
+.container {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
@@ -67,9 +67,6 @@ background: url('../images/mountain.jpeg') center center no-repeat fixed;
     padding-top: 65px;
 }
 
-.review-container{
-   
-}
 
 .review-bg{
     background: #d1cece;
@@ -156,6 +153,9 @@ p {
     color: #fff !important;
 }
 
+.carousel-indicators{
+    z-index: 0;
+}
 
 .carousel-caption{
     bottom: 30%;
@@ -351,7 +351,7 @@ a {
 }
 .post-category a {
 	display: inline-block;
-	background-color: #35d8a1;
+	background-color: #fe346e;
 	color: #fff;
 	font-size: 15px;
 	padding: 5px 20px;
@@ -404,11 +404,11 @@ a.box_btn::before {
 	top: 0;
 	-webkit-transition: .5s;
 	transition: .5s;
-	z-index: 0;
+	z-index: 2;
 }
 a.box_btn {
 	overflow: hidden;
-	z-index: 2;
+	z-index: 0;
 	-webkit-transition: .5s;
 	transition: .5s;
 	position: relative;
@@ -416,7 +416,7 @@ a.box_btn {
 }
 a.box_btn:hover::before {
 	left: 0;
-	z-index: 0;
+	z-index: 2;
 }
 
  /* navbar*/
@@ -479,7 +479,53 @@ border-bottom: 2px solid #fff;
     border-bottom: 2px solid #fff;
 }
 
+
+
 /*Contact*/
+#contact{
+    background-color:#042f4b;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px solid #042f4b;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid #042f4b;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+    
+}
+
+/*footer*/
+.social {
+    color: #fff;
+}
+
+a{
+    color: #fff;
+}
+
+.footer-copyright{
+    background-color: #042f4b;
+}
 
 /* media quries */
 
@@ -491,8 +537,8 @@ border-bottom: 2px solid #fff;
  }
 
 
- 
-/* footer*/
+
+
 
 
 
