@@ -10,6 +10,8 @@ font-family: "Roboto", "Helvetica", "Sans-serif";
     line-height: 1.7;
     position: relative;
 }
+
+
 .callout{
     background: url('../images/daily1.jpeg') center center no-repeat fixed;
     background-size: cover;
@@ -21,6 +23,8 @@ font-family: "Roboto", "Helvetica", "Sans-serif";
     width: 100%;
     display: flex;
 }
+
+
 * {
     outline: none;
 }
@@ -79,11 +83,6 @@ background: url('../images/mountain.jpeg') center center no-repeat fixed;
     justify-content: space-between;
 }
 
-
-
-
-
-
 /* headings */
 .review-heading {
     padding-bottom: 75px;
@@ -123,7 +122,7 @@ h4 {
 
 h5 {
     font-size: 1rem;
-    font-family: "Playfair Display", serif;
+    font-family: "Roboto", "Helvetica", "Sans-serif";
 }
 
 
@@ -136,15 +135,7 @@ header ul li {
     color: #042f4b;
 }
 
-.carousel-caption{
-    bottom: 30%;
-}
 
-.carousel-caption h5 {
-    font-size: 45px;
-    letter-spacing: 2px;
-    font-family: "Roboto"
-}
 
 /* p , text , captions*/
 p {
@@ -164,15 +155,20 @@ p {
 .text-light2{
     color: #fff !important;
 }
-p.large-paragraph {
-    font-size: 1.25rem;
-    font-weight: 300;
+
+
+.carousel-caption{
+    bottom: 30%;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-family: "Roboto"
 }
 
 
 /* buttons*/
-
-
 
 .section2_btn {
     border-radius: 35px;
@@ -292,31 +288,6 @@ section .section-title{
 	-moz-transition: .5s all ease;
 	transition: .5s all ease;
 }
-
-/* The best styles*/
-
-#the-best {
-    padding: 80px 60px;
-}
-
-#the-best .flex > img {
-    width: 47%;
-    height: 70%;
-}
-
-#the-best .flex > div {
-    width: 40%;
-}
-
-#the-best ul {
-    padding-left: 20px;
-    margin-bottom: 4rem;
-}
-
-#the-best ul li {
-    margin: 10px 0;
-}
-
 
 /* blog */
 
@@ -508,12 +479,6 @@ border-bottom: 2px solid #fff;
     border-bottom: 2px solid #fff;
 }
 
-/*media*/
-
-
-
-
-
 /*Contact*/
 
 
@@ -524,15 +489,6 @@ border-bottom: 2px solid #fff;
 #contact a{
   color: #fff;
   text-decoration: none;
-}
-
-
-
-
-#author a{
-  color: #fff;
-  text-decoration: none;
-    
 }
 
 /* media quries */
@@ -582,6 +538,8 @@ border-bottom: 2px solid #fff;
       height: 40vh;
   }
  }
+
+
  
 /* footer*/
 
