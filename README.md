@@ -47,8 +47,8 @@ by having 5 clear sections that had exact purposes. </p>
 <p>1.HTML</p>
 <p>2.CSS</p>
 <p>3.Bootstrap (4.3.1)</p>
-<p>Javascript</p>
-<p>jQuery3.2.1</p>
+<p>4.Javascript</p>
+<p>5.jQuery3.2.1</p>
 
 # Features
 
@@ -57,7 +57,7 @@ by having 5 clear sections that had exact purposes. </p>
 <h3>Features Left to Implement</h3>
 
 <p>In the future, I would like link all the reviews to my very own blog and make a buisness out of this website.
-I would like to do branding and marketinf to promote Dailydriverss as a blog/reviews wesbite for all automotive enthusiasts.
+I would like to do branding and marketing to promote Dailydriverss as a blog/reviews wesbite for all automotive enthusiasts.
 </p>
 
 
