@@ -536,6 +536,12 @@ a{
   }
  }
 
+@media (max-width:576px ) {
+
+  .callout{
+      background-image: url('../images/daily1_small.jpg')
+  }
+ }
 
 
 
