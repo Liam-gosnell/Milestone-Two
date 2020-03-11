@@ -11,7 +11,7 @@ font-family: "Roboto", "Helvetica", "Sans-serif";
     position: relative;
 }
 .callout{
-    background: url('../images/daily1.jpeg') center center no-repeat;
+    background: url('../images/daily1.jpeg') center center no-repeat fixed;
     background-size: cover;
     position: relative;
     top: 0;
@@ -19,9 +19,27 @@ font-family: "Roboto", "Helvetica", "Sans-serif";
     z-index: 1;
     height: 100vh;
     width: 100%;
+    display: flex;
 }
 * {
     outline: none;
+}
+
+.top-dailys{
+background: url('../images/mountain.jpeg') center center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.news-img {
+    background: #d1cece;
+    height: 90vh;
+    width: 100%;
 }
 
 
@@ -357,21 +375,12 @@ border-bottom: 2px solid #fff;
 
 /*media*/
 
-@media only screen and (max-width: 767px;){
-    .navbar-nav.ml-auto{
-        background: rgba(0, 0, 0, 0.5);
-    }
-    .navbar-toggler{
-        padding: 1px 5px;
-        font-size: 18px;
-        line-height: 0.3;
-        background: #fff;
-    }
-}
+
 
 
 
 /*Contact*/
+
 
 #contact{
   background-color: #042f4b;
@@ -383,6 +392,15 @@ border-bottom: 2px solid #fff;
 }
 
 
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+    
+}
+
+/* media quries */
 @media (max-width: 575.98px) {
 
   #contact{padding-bottom: 800px;}
@@ -421,13 +439,14 @@ border-bottom: 2px solid #fff;
      height: 700px;
    }
 }
+ 
 
+ @media (max-width:576px ) {
 
-#author a{
-  color: #fff;
-  text-decoration: none;
-    
-}
+  .w-100 {
+      height: 40vh;
+  }
+ }
+ 
 
-/* scroll down */
 
