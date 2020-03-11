@@ -39,7 +39,7 @@ by having 5 clear sections that had exact purposes. </p>
 
 
 
-![About wireframe]( "About wireframe")
+![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/page1.png "About wireframe")
 
 
 # Technologies
