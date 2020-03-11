@@ -39,7 +39,7 @@ by having 5 clear sections that had exact purposes. </p>
 
 
 
-![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-One/master/wireframes/wireone.png "About wireframe")
+![About wireframe]( "About wireframe")
 
 
 # Technologies
@@ -47,7 +47,8 @@ by having 5 clear sections that had exact purposes. </p>
 <p>1.HTML</p>
 <p>2.CSS</p>
 <p>3.Bootstrap (4.3.1)</p>
-
+<p>Javascript</p>
+<p>jQuery3.2.1</p>
 
 # Features
 
@@ -55,8 +56,8 @@ by having 5 clear sections that had exact purposes. </p>
 
 <h3>Features Left to Implement</h3>
 
-<p>In the future, I would like to add more music that will be released and a band shop with tshirts and jumpers.
-I would aslo like to add more interactive features when I am more familiar with javascript.
+<p>In the future, I would like link all the reviews to my very own blog and make a buisness out of this website.
+I would like to do branding and marketinf to promote Dailydriverss as a blog/reviews wesbite for all automotive enthusiasts.
 </p>
 
 
@@ -71,7 +72,7 @@ I would aslo like to add more interactive features when I am more familiar with 
 In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.</p>
 
 <p>To run locally, you can clone this repository directly into the editor of your choice 
-by pasting git clone  "https://liam-gosnell.github.io/Milestone-One/" into your terminal. 
+by pasting git clone  "https://github.com/Liam-gosnell/Milestone-Two" into your terminal. 
 To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 </p>
 
@@ -79,22 +80,25 @@ To cut ties with this GitHub repository, type git remote rm origin into the term
 # Credits
 <h3>Content</h3>
 
-<p>Bio written by Siobhan, Ger and steve of Venetian Blue</p>
+<p>All content was written by me</p>
 
 <h3>Media</h3>
 
-<p>All photos in the landing and music sections are taken from <a href="https://unsplash.com/">Unsplash</a>, a stock image library.
-All photos in the "Photos" section were provided to me by the members of Venetian Blue. An opaque layer was added to the callout
-container to show the text clearly.
-
+<p>All photos in the callout and car sections are taken from <a href="https://unsplash.com/">Unsplash</a>, a stock image library.
+All photos in the blog section are taken from <a href="https://pexels.com/">Pexels</a>, a stock image library.
 </p>
+
+<p>The contact form was found from <a href="https://bootsnipp.com/snippets/N6bPx">This site</a>.
+ </p>
+
+ <p> The Blog section was found from  <a href="https://bootsnipp.com/snippets/2A3br">This site</a>.
+ </p>
+ <p> The scroll-spy was found from  <a href="https://www.youtube.com/watch?v=Iy96iPwzY18">This site</a>.
+ </p>
 
 <h3>Acknowledgements</h3>
 
-<p>The booking form was found from <a href="https://bootsnipp.com/snippets/qr1zR">This site</a>.
-The collapsed navbar was taken from the Code Institute tutorial on bootstrap.
- </p>
-
- <p>The audio player was taken from  <a href="https://www.w3schools.com/tags/tag_audio.asp">This site</a>.
-
+<p>
+I received inspiration for this project from <a href="https://uv-way.com/#dodge-charger">This site</a>
+and <a href="https://changinglanes.ie/">This site</a>
  </p>
