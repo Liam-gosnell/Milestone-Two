@@ -17,8 +17,8 @@ A live demo can be found [here](https://dailydriverss.com/).
 
 <h2>User stories</h2>
 
-<p>As an automotive enthusiast I expect to see News/Reviews and Images of cars</p>
-<p>As a person looking for Information on vehicles I expect a contact form to send questions</p>
+<p>As an automotive enthusiast I expect to see News/Reviews and Images of cars.</p>
+<p>As a person looking for Information on vehicles I expect a contact form to send questions.</p>
 
 <h2>Strategy</h2>
 <p>My goal in the design was to make it easy as possible to locate and access information on the site.
@@ -67,7 +67,7 @@ I would like to do branding and marketing to promote Dailydriverss as a blog/rev
 
 # Testing
 
-<p>This site was tested across multiple browsers and on multiple mobile devices to enusre compatability and responsiveness</p>
+<p>This site was tested across multiple browsers and on multiple mobile devices to enusre compatability and responsiveness.</p>
 
 
 # Deployment
@@ -104,5 +104,5 @@ All photos in the blog section are taken from <a href="https://pexels.com/">Pexe
 
 <p>
 I received inspiration for this project from <a href="https://uv-way.com/#dodge-charger">This site</a>
-and <a href="https://changinglanes.ie/">This site</a>
+and <a href="https://changinglanes.ie/">This site.</a>
  </p>
