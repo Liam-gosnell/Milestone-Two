@@ -40,6 +40,10 @@ by having 5 clear sections that had exact purposes. </p>
 
 
 ![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/page1.png "About wireframe")
+![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/page2.png "About wireframe")
+![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/page3.png "About wireframe")
+![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/Page_2.png "About wireframe")
+![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/Page_3.png "About wireframe")
 
 
 # Technologies
