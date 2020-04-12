@@ -17,8 +17,46 @@ A live demo can be found [here](https://dailydriverss.com/).
 
 <h2>User stories</h2>
 
-<p>As an automotive enthusiast I expect to see News/Reviews and Images of cars.</p>
+<h3>Reviews<h3>
+
+<p>As a user of this site, I want to be able to read in dept reviews on the cars that are available on the website. </p>
+<p>As an enthusiast, I expect the reviews to be to a high standard with non-bias opinions towards certain companies.</p>
+<p>As a potential journalist to submit reviews to the website, I expect there to be a contact form with a buisness location shown.</p>
+<p>As a frequent user, I expect there to be new reviews on the latest cars that have been released.</p>
+
+<h3>News<h3>
+
+<p>As a user of this site, I want to be able to check for any automotive news. </p>
+<p>As a user, I expect to be able to sign up to a subscription list to recieve emails for the latest news.</p>
+<p>As an enthusiast, I want to be able to contact the website owners about the news that they are showing.</p>
+<p>As a subscribed user, I expect updates daily on events and any automotive news.</p>
+
+<h3>Questions<h3>
+
+<p>As a user of this site, I want to be able to contact the website owners with any questions about the site. </p>
 <p>As a person looking for Information on vehicles I expect a contact form to send questions.</p>
+<p>As an enthusiast, I want to be able to email the website creators with any ideas for the website.</p>
+
+<h3>Blog<h3>
+
+<p>As a user of this site, I want to be able to see blog posts about current affairs in the automotive industry.</p>
+<p>As a user, I want the blog to be updated with new content daily.</p>
+<p>As an automotive journalist, I want to be able to send any blog posts that I have to the website.</p>
+<p>As a user, I want all the links to be in working order and to locate me to the information from the blog posts.</p>
+
+<h3>Home Page<h3>
+
+<p>As a user of this site, I want the home page to be visually pleasing and know what the site is about.</p>
+<p>As a user, I want the Home page to look professional.</p>
+<p>As a enthusiast, I want the home page to capture what the automotive industry is about.</p>
+
+<h3>Navigation<h3>
+
+<p>As a user of this site, I want to be able to naviagte through the site with ease.</p>
+<p>As a user, I expect the naviagtion links to bring me to the section that I have intended to see.</p>
+<p>As a user, I want the site the naviagtion to be available at all times on the site.</p>
+<p>As a user, I expect the site naviagtion to be visable at all times.</p>
+
 
 <h2>Strategy</h2>
 <p>My goal in the design was to make it easy as possible to locate and access information on the site.
@@ -38,12 +76,15 @@ by having 5 clear sections that had exact purposes. </p>
 <h2>Skeleton</h2>
 
 
-
 ![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/page1.png "About wireframe")
 ![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/page2.png "About wireframe")
 ![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/page3.png "About wireframe")
 ![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/Page_2.png "About wireframe")
 ![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/Page_3.png "About wireframe")
+
+<h2>Surface</h2>
+
+
 
 
 # Technologies
