@@ -399,12 +399,13 @@ a.box_btn::before {
 	content: "";
 	width: 100%;
 	height: 100%;
-	background-color: #042f4b;
+	background-color: #fff;
+    color:#35d8a1 ;
 	left: -100%;
 	top: 0;
 	-webkit-transition: .5s;
 	transition: .5s;
-	z-index: 2;
+	z-index:2;
 }
 a.box_btn {
 	overflow: hidden;
@@ -417,6 +418,10 @@ a.box_btn {
 a.box_btn:hover::before {
 	left: 0;
 	z-index: 2;
+}
+
+.post-category{
+    color: #fff;
 }
 
  /* navbar*/
