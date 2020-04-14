@@ -17,45 +17,45 @@ A live demo can be found [here](https://dailydriverss.com/).
 
 <h2>User stories</h2>
 
-<h3>Reviews<h3>
+### Reviews
 
-<p>As a user of this site, I want to be able to read in dept reviews on the cars that are available on the website. </p>
-<p>As an enthusiast, I expect the reviews to be to a high standard with non-bias opinions towards certain companies.</p>
-<p>As a potential journalist to submit reviews to the website, I expect there to be a contact form with a buisness location shown.</p>
-<p>As a frequent user, I expect there to be new reviews on the latest cars that have been released.</p>
+* As a user of this site, I want to be able to read in dept reviews on the cars that are available on the website. 
+* As an enthusiast, I expect the reviews to be to a high standard with non-bias opinions towards certain companies.
+* As a potential journalist to submit reviews to the website, I expect there to be a contact form with a buisness location shown.
+* As a frequent user, I expect there to be new reviews on the latest cars that have been released.
 
-<h3>News<h3>
+### News
 
-<p>As a user of this site, I want to be able to check for any automotive news. </p>
-<p>As a user, I expect to be able to sign up to a subscription list to recieve emails for the latest news.</p>
-<p>As an enthusiast, I want to be able to contact the website owners about the news that they are showing.</p>
-<p>As a subscribed user, I expect updates daily on events and any automotive news.</p>
+* As a user of this site, I want to be able to check for any automotive news. 
+* As a user, I expect to be able to sign up to a subscription list to recieve emails for the latest news.
+* As an enthusiast, I want to be able to contact the website owners about the news that they are showing.
+* As a subscribed user, I expect updates daily on events and any automotive news.
 
-<h3>Questions<h3>
+### Questions
 
-<p>As a user of this site, I want to be able to contact the website owners with any questions about the site. </p>
-<p>As a person looking for Information on vehicles I expect a contact form to send questions.</p>
-<p>As an enthusiast, I want to be able to email the website creators with any ideas for the website.</p>
+* As a user of this site, I want to be able to contact the website owners with any questions about the site. 
+* As a person looking for Information on vehicles I expect a contact form to send questions.
+* As an enthusiast, I want to be able to email the website creators with any ideas for the website.
 
-<h3>Blog<h3>
+### Blog
 
-<p>As a user of this site, I want to be able to see blog posts about current affairs in the automotive industry.</p>
-<p>As a user, I want the blog to be updated with new content daily.</p>
-<p>As an automotive journalist, I want to be able to send any blog posts that I have to the website.</p>
-<p>As a user, I want all the links to be in working order and to locate me to the information from the blog posts.</p>
+* As a user of this site, I want to be able to see blog posts about current affairs in the automotive industry.
+* As a user, I want the blog to be updated with new content daily.
+* As an automotive journalist, I want to be able to send any blog posts that I have to the website.
+* As a user, I want all the links to be in working order and to locate me to the information from the blog posts.
 
-<h3>Home Page<h3>
+### Home Page
 
-<p>As a user of this site, I want the home page to be visually pleasing and know what the site is about.</p>
-<p>As a user, I want the Home page to look professional.</p>
-<p>As a enthusiast, I want the home page to capture what the automotive industry is about.</p>
+* As a user of this site, I want the home page to be visually pleasing and know what the site is about.
+* As a user, I want the Home page to look professional.
+* As a enthusiast, I want the home page to capture what the automotive industry is about.
 
-<h3>Navigation<h3>
+### Navigation
 
-<p>As a user of this site, I want to be able to naviagte through the site with ease.</p>
-<p>As a user, I expect the naviagtion links to bring me to the section that I have intended to see.</p>
-<p>As a user, I want the site the naviagtion to be available at all times on the site.</p>
-<p>As a user, I expect the site naviagtion to be visable at all times.</p>
+* As a user of this site, I want to be able to naviagte through the site with ease.
+* As a user, I expect the naviagtion links to bring me to the section that I have intended to see.
+* As a user, I want the site the naviagtion to be available at all times on the site.
+* As a user, I expect the site naviagtion to be visable at all times.
 
 
 <h2>Strategy</h2>
@@ -89,15 +89,16 @@ by having 5 clear sections that had exact purposes. </p>
 
 # Technologies
 
-<p>1.HTML</p>
-<p>2.CSS</p>
-<p>3.Bootstrap (4.3.1)</p>
-<p>4.Javascript</p>
-<p>5.jQuery3.2.1</p>
+<h4>1.HTML</h4>
+<h4>2.CSS</h4>
+<h4>3.Bootstrap (4.3.1)</h4>
+<h4>4.Javascript</h4>
+<h4>5.jQuery3.2.1</h4>
 
 # Features
 
-<p>This Navbar is responsive, it will collapse down while on a mobile device.</p>
+<p>This Navbar is responsive, it will collapse down while on a mobile device. The naviagtion changes colour when scrolling past the callout.
+I used scroll-spy to make the Navigation through the site smoother and for ease of use.</p>
 
 <h3>Features Left to Implement</h3>
 
