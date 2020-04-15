@@ -170,42 +170,7 @@ p {
 
 /* buttons*/
 
-.section2_btn {
-    border-radius: 35px;
-    padding: 10px 12px;
-    width: 100%;
-    height: 52px;
-    color: #fff;
-    font-size: 16px;
-    margin-bottom: 42px;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s
-}
 
-.btn-rounded:hover {
-    background: #35d8a1;
-    color: #fff
-}
-
-.btn-rounded {
-    background: transparent;
-    border: 2px solid #35d8a1;
-    color: #35d8a1
-}
-
-.btn55 {
-    background: transparent;
-    border: 2px solid #042f4b ;
-    color: #042f4b ;
-}
-
-.btn55:hover {
-    background: #042f4b ;
-    color: #fff
-}
 
 
 /*What we do */
@@ -291,138 +256,6 @@ section .section-title{
 
 /* blog */
 
-.pb-100 {
-	padding-bottom: 100px;
-}
-.pt-100 {
-	padding-top: 100px;
-}
-.mb-100 {
-	margin-bottom: 100px;
-}
-a {
-	text-decoration: none;
-	color: #333;
-	-webkit-transition: .4s;
-	transition: .4s;
-}
-.section-title {
-	position: relative;
-}
-.section-title p {
-	font-size: 16px;
-	margin-bottom: 5px;
-	font-weight: 400;
-}
-.section-title h4 {
-	font-size: 40px;
-	font-weight: 600;
-	text-transform: capitalize;
-	position: relative;
-	padding-bottom: 20px;
-	display: inline-block;
-}
-.section-title h4::before {
-	position: absolute;
-	content: "";
-	width: 80px;
-	height: 2px;
-	background-color: #d8d8d8;
-	bottom: 0;
-	left: 50%;
-	margin-left: -40px;
-}
-.section-title h4::after {
-	position: absolute;
-	content: "";
-	width: 50px;
-	height: 2px;
-	background-color: #35d8a1;
-	left: 0;
-	bottom: 0;
-	left: 50%;
-	margin-left: -25px;
-}
-.blog-img {
-	position: relative;
-}
-.blog-img img {
-	width: 100%;
-}
-.post-category a {
-	display: inline-block;
-	background-color: #fe346e;
-	color: #fff;
-	font-size: 15px;
-	padding: 5px 20px;
-}
-.single-blog:hover img {
-	opacity: .85;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)"
-}
-.post-category {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-}
-.blog-content {
-	padding: 30px 20px;
-}
-.single-blog {
-	border: 1px solid #eee;
-}
-.blog-title h4 {
-	font-size: 20px;
-	font-weight: 500;
-	margin-bottom: 5px;
-}
-.meta ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-.meta {
-	margin-bottom: 20px;
-	opacity: .85;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-}
-.blog-content a.box_btn {
-	display: inline-block;
-	background-color: #35d8a1;
-	padding: 5px 15px;
-	color: #fff;
-	text-transform: capitalize;
-	margin-top: 20px;
-}
-a.box_btn::before {
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: 100%;
-	background-color: #fff;
-    color:#35d8a1 ;
-	left: -100%;
-	top: 0;
-	-webkit-transition: .5s;
-	transition: .5s;
-	z-index:2;
-}
-a.box_btn {
-	overflow: hidden;
-	z-index: 0;
-	-webkit-transition: .5s;
-	transition: .5s;
-	position: relative;
-	text-decoration:none;
-}
-a.box_btn:hover::before {
-	left: 0;
-	z-index: 2;
-}
-
-.post-category{
-    color: #fff;
-}
 
  /* navbar*/
 .navbar-nav a{
@@ -487,50 +320,10 @@ border-bottom: 2px solid #fff;
 
 
 /*Contact*/
-#contact{
-    background-color:#042f4b;
-    font-family: 'Roboto', sans-serif;
-    
-}
 
-#contact .well{
-    margin-top:30px;
-    border-radius:0;
-}
-
-#contact .form-control{
-    border-radius: 0;
-    border:2px solid #042f4b;
-}
-
-#contact button{
-    border-radius:0;
-    border:2px solid #042f4b;
-}
-
-#contact .row{
-    margin-bottom:30px;
-}
-
-@media (max-width: 768px) { 
-    #contact iframe {
-        margin-bottom: 15px;
-    }
-    
-}
 
 /*footer*/
-.social {
-    color: #fff;
-}
 
-a{
-    color: #fff;
-}
-
-.footer-copyright{
-    background-color: #042f4b;
-}
 
 /* media quries */
 
@@ -555,6 +348,45 @@ a{
     display: flex;
   }
  }
+
+
+ /* cards for media */
+
+ .image-grid-cover {
+    width: 100%;
+    background-size: cover;
+    min-height: 180px;
+    position: relative;
+    margin-bottom: 30px;
+    text-shadow: rgba(0,0,0,.8) 0 1px 0;
+    border-radius: 4px;
+}
+.image-grid-clickbox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    background: rgba(0,0,0,.45);
+}
+.cover-wrapper {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-shadow: rgba(0,0,0,.8) 0 1px 0;
+    z-index: 21;
+    position: relative;
+    top: 80px;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
 
 
 
