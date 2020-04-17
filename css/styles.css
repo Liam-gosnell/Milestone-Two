@@ -95,7 +95,7 @@ section .section-title{
 	font-family: FontAwesome;
     position: absolute;
     font-size: 39px;
-    color: #243c4f;
+    color: #00204a;
     left: 0;
 	-webkit-transition: -webkit-transform .2s ease-in-out;
     transition:transform .2s ease-in-out;
@@ -126,51 +126,6 @@ section .section-title{
 	transition: .5s all ease;
 }
 
-/*newsletter*/
-.home-newsletter {
-padding: 80px 0;
-background: #000;
-}
-
-.home-newsletter .single {
-max-width: 100%;
-margin: 0 auto;
-text-align: center;
-position: relative;
-z-index: 2; }
-.home-newsletter .single h2 {
-font-size: 22px;
-color: white;
-text-transform: uppercase;
-margin-bottom: 40px; }
-.home-newsletter .single .form-control {
-height: 50px;
-background: rgba(255, 255, 255, 0.6);
-border-color: transparent;
-border-radius: 20px 0 0 20px;
-
- }
-
-.home-newsletter .single .form-control:focus {
-box-shadow: none;
-border-color: #243c4f; }
-.home-newsletter .single .btn {
-min-height: 50px; 
-border-radius: 0 20px 20px 0;
-background: #c70039;
-color: #fff;
-}
-
-/* carousel */
-.carousel-item {
-  height: 65vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 
 /* contact */
@@ -287,7 +242,7 @@ textarea {
 	font-weight: 400;
 }
 .contact-form input[type="submit"] {
-	background-color: #000;
+	background-color: #fff;
 	border: 0px;
 	cursor: pointer;
 	font-size: 16px;
@@ -302,6 +257,10 @@ textarea {
 }
 
 /* footer */
+
+.text-white{
+    color: #fff !important;
+}
 
 .blue-text{
     color: #243c4f !important;
@@ -323,4 +282,55 @@ i {
 
 .form-control.shadow-0:focus {
   box-shadow: none;
+}
+
+/* about */
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
 }

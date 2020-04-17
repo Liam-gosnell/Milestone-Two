@@ -59,43 +59,17 @@
 <!--Closing Nav-->
 
 <header>
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      <!-- Slide One - Set the background image for this slide in the line below -->
-      <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')">
-        <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-4">First Slide</h3>
-          <p class="lead">This is a description for the first slide.</p>
-        </div>
-      </div>
-      <!-- Slide Two - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')">
-        <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-4">Second Slide</h3>
-          <p class="lead">This is a description for the second slide.</p>
-        </div>
-      </div>
-      <!-- Slide Three - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/O7fzqFEfLlo/1920x1080')">
-        <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-4">Third Slide</h3>
-          <p class="lead">This is a description for the third slide.</p>
-        </div>
+  <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3">Video Header</h1>
+        <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
   </div>
 </header>
 
@@ -126,11 +100,11 @@ I hope you enjoy this site and please follow me on social media so you never mis
 </section>
 
       <!-- Footer -->
-  <footer class="bg-white">
+  <footer class="bg-dark">
     <div class="container py-5">
       <div class="row py-4">
         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
-          <p class="font-italic text-muted text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          <p class="font-italic text-muted text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
           <ul class="list-inline mt-4">
             <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fab fa-twitter"></i></a></li>
             <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fab fa-facebook"></i></a></li>
@@ -140,26 +114,26 @@ I hope you enjoy this site and please follow me on social media so you never mis
           </ul>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h6 class="text-uppercase font-weight-bold mb-4 text-dark">Shop</h6>
+          <h6 class="text-uppercase font-weight-bold mb-4 text-white">Shop</h6>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-muted text-dark">For Women</a></li>
-            <li class="mb-2"><a href="#" class="text-muted text-dark">For Men</a></li>
-            <li class="mb-2"><a href="#" class="text-muted text-dark">Stores</a></li>
-            <li class="mb-2"><a href="#" class="text-muted text-dark">Our Blog</a></li>
+            <li class="mb-2"><a href="#" class="text-muted text-white">For Women</a></li>
+            <li class="mb-2"><a href="#" class="text-muted text-white">For Men</a></li>
+            <li class="mb-2"><a href="#" class="text-muted text-white">Stores</a></li>
+            <li class="mb-2"><a href="#" class="text-muted text-white">Our Blog</a></li>
           </ul>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h6 class="text-uppercase font-weight-bold mb-4 text-dark">Company</h6>
+          <h6 class="text-uppercase font-weight-bold mb-4 text-white">Company</h6>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-muted text-dark">Login</a></li>
-            <li class="mb-2"><a href="#" class="text-muted text-dark">Register</a></li>
-            <li class="mb-2"><a href="#" class="text-muted text-dark">Wishlist</a></li>
-            <li class="mb-2"><a href="#" class="text-muted text-dark">Our Products</a></li>
+            <li class="mb-2"><a href="#" class="text-muted text-white">Login</a></li>
+            <li class="mb-2"><a href="#" class="text-muted text-white">Register</a></li>
+            <li class="mb-2"><a href="#" class="text-muted text-white">Wishlist</a></li>
+            <li class="mb-2"><a href="#" class="text-muted text-white">Our Products</a></li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-6 mb-lg-0">
-          <h6 class="text-uppercase font-weight-bold mb-4 text-dark">Newsletter</h6>
-          <p class="text-muted mb-4 text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+          <h6 class="text-uppercase font-weight-bold mb-4 text-white">Newsletter</h6>
+          <p class="text-muted mb-4 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
           <div class="p-1 rounded border">
             <div class="input-group">
               <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
@@ -173,9 +147,9 @@ I hope you enjoy this site and please follow me on social media so you never mis
     </div>
 
     <!-- Copyrights -->
-    <div class="bg-light py-4">
+    <div class="bg-dark py-4">
       <div class="container text-center">
-        <p class="text-muted mb-0 py-2 blue-text">© 2019 Bootstrapious All rights reserved.</p>
+        <p class="text-muted mb-0 py-2 text-white">© 2020 Liam Gosnell.</p>
       </div>
     </div>
   </footer>
