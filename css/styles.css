@@ -30,13 +30,19 @@ font-family: "Roboto", "Helvetica", "Sans-serif";
     outline: none;
 }
 
+/* paragraphs */
+.paragraph-bg{
+background-color: #fff;
+}
+
 /* Headings */
+
 .my-4{
-    color:#465881;
+    color:#243c4f;
 }
 
 .h1{
-    color:#465881;
+    color:#243c4f;
 }
 
 /*What we do */
@@ -47,7 +53,7 @@ section{
 }
 section .section-title{
 	text-align:center;
-	color:#465881;
+	color:#243c4f;
 	margin-bottom:50px;
 	text-transform:uppercase;
 }
@@ -72,7 +78,7 @@ section .section-title{
     position: relative;
 }
 #what-we-do .card .card-block a{
-	color: #18274d !important;
+	color: #243c4f !important;
 	font-weight:700;
 	text-decoration:none;
 }
@@ -89,7 +95,7 @@ section .section-title{
 	font-family: FontAwesome;
     position: absolute;
     font-size: 39px;
-    color: #042f4b;
+    color: #243c4f;
     left: 0;
 	-webkit-transition: -webkit-transform .2s ease-in-out;
     transition:transform .2s ease-in-out;
@@ -123,7 +129,7 @@ section .section-title{
 /*newsletter*/
 .home-newsletter {
 padding: 80px 0;
-background: #042f4b;
+background: #000;
 }
 
 .home-newsletter .single {
@@ -214,14 +220,14 @@ a {
 	content: "";
 	width: 50px;
 	height: 2px;
-	background-color: #243c4f;
+	background-color: #0000;
 	left: 0;
 	bottom: 0;
 	left: 50%;
 	margin-left: -25px;
 }
 .contact {
-	background-image: url("http://infinityflamesoft.com/html/abal-preview/assets/img/contact_back.jpg");
+	background-image: url("../images/contact-bg.jpeg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -232,7 +238,7 @@ a {
 .contact-form input,
 textarea {
 	width: 100%;
-	border: 1px solid #555;
+	border: 1px solid #fff;
 	padding: 5px 10px;
 	text-transform: capitalize;
 	margin-top: 15px;
@@ -249,7 +255,7 @@ textarea {
 	background-color: #333;
 	z-index: -1;
 	opacity: .85;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
 }
 .single-contact {
 	text-align: left;
@@ -264,7 +270,7 @@ textarea {
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	        transform: translateY(-50%);
-	background-color: #243c4f;
+	background-color: #000;
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
@@ -281,7 +287,7 @@ textarea {
 	font-weight: 400;
 }
 .contact-form input[type="submit"] {
-	background-color: #243c4f;
+	background-color: #000;
 	border: 0px;
 	cursor: pointer;
 	font-size: 16px;
@@ -289,9 +295,32 @@ textarea {
 	transition: .4s
 }
 .contact-form input[type="submit"]:hover {
-	background-color: #395e7c;
+	background-color: #243c4f;
 }
 .contact-form input:focus, textarea:focus {
-	border-color: #395e7c;
+	border-color: #243c4f;
 }
 
+/* footer */
+
+.blue-text{
+    color: #243c4f !important;
+}
+
+#button-addon1 {
+  color: #c70039;
+}
+
+i {
+  color: #c70039;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
