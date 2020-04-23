@@ -12,7 +12,14 @@ font-family: "Roboto", "Helvetica", "Sans-serif";
 }
 
 
-
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../images/st.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .card-title{
     color: #465881;
@@ -30,13 +37,7 @@ background-color: #fff;
 
 /* Headings */
 
-.my-4{
-    color:#243c4f;
-}
 
-.h1{
-    color:#243c4f;
-}
 
 /*What we do */
 
@@ -354,3 +355,5 @@ header .overlay {
 .how-img img{
     width: 70%;
 }
+
+
