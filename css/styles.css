@@ -29,58 +29,19 @@ font-family: "Roboto", "Helvetica", "Sans-serif";
     outline: none;
 }
 
+.my-4{
+    color: #000;
+}
+
+h3{
+    color: #000;;
+}
 /* paragraphs */
 .paragraph-bg{
 background-color: #fff;
 }
 
 /* nav */
-/* Change this breakpoint if you change the breakpoint of the navbar */
-
-@media (min-width: 992px) {
-  .animate {
-    animation-duration: 0.3s;
-    -webkit-animation-duration: 0.3s;
-    animation-fill-mode: both;
-    -webkit-animation-fill-mode: both;
-  }
-}
-
-@keyframes slideIn {
-  0% {
-    transform: translateY(1rem);
-    opacity: 0;
-  }
-  100% {
-    transform:translateY(0rem);
-    opacity: 1;
-  }
-  0% {
-    transform: translateY(1rem);
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes slideIn {
-  0% {
-    -webkit-transform: transform;
-    -webkit-opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    -webkit-opacity: 1;
-  }
-  0% {
-    -webkit-transform: translateY(1rem);
-    -webkit-opacity: 0;
-  }
-}
-
-.slideIn {
-  -webkit-animation-name: slideIn;
-  animation-name: slideIn;
-}
-
 
 .masthead {
   position: relative;
@@ -163,7 +124,7 @@ section{
 }
 section .section-title{
 	text-align:center;
-	color:#0000;
+	color:#000;
 	margin-bottom:50px;
 	text-transform:uppercase;
 }
@@ -188,7 +149,7 @@ section .section-title{
     position: relative;
 }
 #what-we-do .card .card-block a{
-	color: #243c4f !important;
+	color: #000; !important;
 	font-weight:700;
 	text-decoration:none;
 }
@@ -219,15 +180,7 @@ section .section-title{
 #what-we-do .card .block-3:before{
     content: "\f00c";
 }
-#what-we-do .card .block-4:before{
-    content: "\f209";
-}
-#what-we-do .card .block-5:before{
-    content: "\f0a1";
-}
-#what-we-do .card .block-6:before{
-    content: "\f218";
-}
+
 #what-we-do .card:hover .card-block:before{
 	-webkit-transform: rotate(360deg);
 	transform: rotate(360deg);	
@@ -472,7 +425,7 @@ header .overlay {
 
 /*map*/
 
-div#map {min-height: 460px;}
+div#map {min-height: 480px;}
 
 .light{
     color: #fff!important;
