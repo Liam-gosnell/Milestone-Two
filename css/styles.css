@@ -9,6 +9,7 @@ font-family: "Roboto", "Helvetica", "Sans-serif";
     color: #777;
     line-height: 1.7;
     position: relative;
+   
 }
 
 .card-title{
@@ -26,7 +27,10 @@ font-family: "Roboto", "Helvetica", "Sans-serif";
 }
 
 * {
+    margin: 0;
+    padding: 0;
     outline: none;
+    box-sizing: border-box;
 }
 
 .my-4{
@@ -36,20 +40,112 @@ font-family: "Roboto", "Helvetica", "Sans-serif";
 h3{
     color: #000;;
 }
+
+h2{
+    font-size:1.5rem;
+}
 /* paragraphs */
 .paragraph-bg{
 background-color: #fff;
 }
 
-/*zoom*/
+/*social*/
+.social-body{
+    background: url('../images/bg-social.jpeg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
 
+
+.container-1{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+}
+
+.container-1 .icon {
+position: relative;
+width: 50%;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.container-1 .icon .iconBx{
+    position: relative;
+    width: calc(50% - 40px);
+    margin: 0 30px 30px 0;
+    padding: 0 25px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    transition: 0.5s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .07);
+}
+
+.container-1 .icon .iconBx.active {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+.container-1 .icon .iconBx img{
+    max-width: 100%;
+    filter: grayscale(1);
+    transition: 0.5s;
+    transform: scale(0.8);
+}
+
+.container-1 .icon .iconBx.active img {
+    filter: grayscale(0);
+    transform: scale(1);
+}
+
+.content-social{
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+
+.content-social .contentBx {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.content-social .contentBx.active {
+    transform: scale(1);
+    opacity: 1;
+    transition-delay: 0.4s;
+}
+
+.content-social .contentBx h2 {
+    
+}
 
 /* nav */
 
 .masthead {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100vh;
   min-height: 35rem;
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../images/st.jpeg");

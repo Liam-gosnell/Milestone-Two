@@ -63,6 +63,7 @@
       </div>
     </div>
   </header>
+ 
 
 
 	<!--Features -->
@@ -110,9 +111,87 @@
 	 </section>
 	 <!-- features-->
 
+     <!--Social-->
+    <div class="social-body">
+      <div class="container-1">
+        <div class="icon">
+           <div class="iconBx active" data-id="content1">
+               <img src="./images/facebooksvg.svg" alt="" >
+           </div>
+           <div class="iconBx" data-id="content2">
+               <img src="./images/twittersvg.svg" alt="" >
+           </div>
+           <div class="iconBx" data-id="content3">
+               <img src="./images/youtubesvg.svg" alt="" >
+           </div>
+           <div class="iconBx" data-id="content4">
+               <img src="./images/instagram2.svg" alt="" >
+           </div>
+           
+        </div>
+
+        <div class="content-social">
+          <div class="contentBx active" id="content1">
+             <div>
+                <div class="text">
+                    <h2 class="text-white">Facebook Text</h2>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Expedita recusandae quas odit dolores, ipsam, 
+                    quia corrupti dolorum porro aspernatur pariatur aliquid? 
+                    Ab et temporibus architecto quas, repudiandae fuga eius distinctio, 
+                    dicta officiis odit quos tempore itaque neque, explicabo maxime minima necessitatibus? 
+                    Placeat similique dicta eos quaerat blanditiis, voluptate eius aliquid?</p>
+                </div>
+             </div>
+          </div>
+          <div class="contentBx" id="content2">
+             <div>
+                <div class="text">
+                    <h2 class="text-white" >Twitter Text</h2>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Expedita recusandae quas odit dolores, ipsam, 
+                    quia corrupti dolorum porro aspernatur pariatur aliquid? 
+                    Ab et temporibus architecto quas, repudiandae fuga eius distinctio, 
+                    dicta officiis odit quos tempore itaque neque, explicabo maxime minima necessitatibus? 
+                    Placeat similique dicta eos quaerat blanditiis, voluptate eius aliquid?</p>
+                </div>
+             </div>
+          </div>
+          <div class="contentBx" id="content3">
+             <div>
+                <div class="text">
+                    <h2 class="text-white">Youtube Text</h2>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Expedita recusandae quas odit dolores, ipsam, 
+                    quia corrupti dolorum porro aspernatur pariatur aliquid? 
+                    Ab et temporibus architecto quas, repudiandae fuga eius distinctio, 
+                    dicta officiis odit quos tempore itaque neque, explicabo maxime minima necessitatibus? 
+                    Placeat similique dicta eos quaerat blanditiis, voluptate eius aliquid?</p>
+                </div>
+             </div>
+          </div>
+          <div class="contentBx" id="content4">
+             <div>
+                <div class="text">
+                    <h2 class="text-white">Instagram Text</h2>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Expedita recusandae quas odit dolores, ipsam, 
+                    quia corrupti dolorum porro aspernatur pariatur aliquid? 
+                    Ab et temporibus architecto quas, repudiandae fuga eius distinctio, 
+                    dicta officiis odit quos tempore itaque neque, explicabo maxime minima necessitatibus? 
+                    Placeat similique dicta eos quaerat blanditiis, voluptate eius aliquid?</p>
+                </div>
+             </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+     <!--/Social-->
+
 
      <!-- maps -->
-     <section>
+     <div>
      <section class="page-section bg-dark" id="about">
             <div class="container">
                 <div class="row justify-content-center">
@@ -128,7 +207,7 @@
         <div id="map">
         </div>
         
-     </section>
+     </div>
 
      
 
@@ -280,6 +359,25 @@
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
                 <script src="js/maps.js"></script>
+
+
+                <script type="text/javascript">
+                   var iconBx = document.querySelectorAll('.iconBx');
+                   var contentBx = document.querySelectorAll('.contentBx');
+
+                   for (var i=0; i<iconBx.length; i++){
+                       iconBx[i].addEventListener('mouseover', function(){
+                           for (var i=0; i<contentBx.length; i++){
+                           contentBx[i].className='contentBx';
+                           }
+                           document.getElementById(this.dataset.id).className = 'contentBx active';
+                           for (var i=0; i<iconBx.length; i++){
+                           iconBx[i].className='iconBx';
+                           }
+                           this.className = 'iconBx active';
+                       })
+                   }
+                </script>
                 
 
                 <script>
