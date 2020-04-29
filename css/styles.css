@@ -49,6 +49,69 @@ h2{
 background-color: #fff;
 }
 
+/* scroll down button */
+.circle{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 80px;
+    height:80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    overflow: hidden;
+}
+
+.circle .fas {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate 
+{
+    0%
+    {
+        transform: translateY(-50px);
+        text-shadow: 0 50px 0 #fff;
+    }
+    20%
+    {
+        transform: translateY(px);
+        text-shadow: 0 10px 0 #fff;
+    }
+    40%
+    {
+        transform: translateY(px);
+        text-shadow: 0 -10px 0 #fff;
+    }
+    60%
+    {
+        transform: translateY(px);
+        text-shadow: 0 0px 0 #fff;
+    }
+    100%
+    {
+        transform: translateY(100px);
+        text-shadow: 0 -50px 0 #fff;
+    }
+}
+
+.circle::before {
+ content: 'SCROLL DOWN';
+ position: absolute;
+ color: #fff;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 8px;
+ left: 10px;
+ top: 12px;
+}
+
+
 /*social*/
 .social-body{
     background: url('../images/bg-social.jpeg') no-repeat center center fixed; 
@@ -148,7 +211,7 @@ flex-wrap: wrap;
   height: 100vh;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../images/st.jpeg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../images/gtr.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -530,3 +593,32 @@ div#map {min-height: 480px;}
 .light{
     color: #fff!important;
 }
+
+/* best review on home page */
+
+.card-img-top:hover {
+    
+transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #ff6363;
+    background-color: white;
+}
+
+.card-img-top:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #00838d;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+}
+.card-img-top:hover:before {
+    transform: scale(2.15);
+  }

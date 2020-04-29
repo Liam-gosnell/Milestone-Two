@@ -60,6 +60,10 @@
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
       <h2 class="text-white">All about the Drive</h2>
+       <div class="circle">
+       <a href="#what-we-do"><i class="fas fa-chevron-down"></i></a>
+       
+       </div>
       </div>
     </div>
   </header>
@@ -112,8 +116,8 @@
 	 <!-- features-->
 
      <!--Social-->
-    <div class="social-body">
-      <div class="container-1">
+    <div class="social-body  ">
+      <div class="container-1 ">
         <div class="icon">
            <div class="iconBx active" data-id="content1">
                <img src="./images/facebooksvg.svg" alt="" >
@@ -134,7 +138,7 @@
           <div class="contentBx active" id="content1">
              <div>
                 <div class="text">
-                    <h2 class="text-white">Facebook Text</h2>
+                    <h2 class="text-white">Facebook </h2>
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Expedita recusandae quas odit dolores, ipsam, 
                     quia corrupti dolorum porro aspernatur pariatur aliquid? 
@@ -147,7 +151,7 @@
           <div class="contentBx" id="content2">
              <div>
                 <div class="text">
-                    <h2 class="text-white" >Twitter Text</h2>
+                    <h2 class="text-white" >Twitter</h2>
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Expedita recusandae quas odit dolores, ipsam, 
                     quia corrupti dolorum porro aspernatur pariatur aliquid? 
@@ -160,7 +164,7 @@
           <div class="contentBx" id="content3">
              <div>
                 <div class="text">
-                    <h2 class="text-white">Youtube Text</h2>
+                    <h2 class="text-white">Youtube </h2>
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Expedita recusandae quas odit dolores, ipsam, 
                     quia corrupti dolorum porro aspernatur pariatur aliquid? 
@@ -173,7 +177,7 @@
           <div class="contentBx" id="content4">
              <div>
                 <div class="text">
-                    <h2 class="text-white">Instagram Text</h2>
+                    <h2 class="text-white">Instagram</h2>
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Expedita recusandae quas odit dolores, ipsam, 
                     quia corrupti dolorum porro aspernatur pariatur aliquid? 
@@ -359,61 +363,7 @@
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
                 <script src="js/maps.js"></script>
-
-
-                <script type="text/javascript">
-                   var iconBx = document.querySelectorAll('.iconBx');
-                   var contentBx = document.querySelectorAll('.contentBx');
-
-                   for (var i=0; i<iconBx.length; i++){
-                       iconBx[i].addEventListener('mouseover', function(){
-                           for (var i=0; i<contentBx.length; i++){
-                           contentBx[i].className='contentBx';
-                           }
-                           document.getElementById(this.dataset.id).className = 'contentBx active';
-                           for (var i=0; i<iconBx.length; i++){
-                           iconBx[i].className='iconBx';
-                           }
-                           this.className = 'iconBx active';
-                       })
-                   }
-                </script>
-                
-
-                <script>
-                (function($) {
-  "use strict"; // Start of use strict
-
-  
-  
-
-  // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
-  });
-
- 
-
-  // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
-    } else {
-      $("#mainNav").removeClass("navbar-shrink");
-    }
-  };
-  // Collapse now if page is not at top
-  navbarCollapse();
-  // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
-
- })(jQuery); // End of use strict
-                </script>
-                
-
-        
-                
-                
+                <script src="js/main.js"></script>
 
  </body>
 
