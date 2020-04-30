@@ -183,6 +183,20 @@ background-color: #fff;
  top: 12px;
 }
 
+@media only screen and (min-width: 600px){
+    .circle{
+        position: relative;
+        top: 250px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .circle{
+        position: relative;
+        top: 200px;
+    }
+}
+
 
 /*What we do */
 
@@ -343,9 +357,20 @@ flex-wrap: wrap;
     transition-delay: 0.4s;
 }
 
-.content-social .contentBx h2 {
-    
+@media only screen and (max-width: 768px){
+
+ .iconBx{width: calc(60% - 5px);
+ }
+  
 }
+
+
+@media only screen and (min-width: 600px) {
+    p{
+        padding-right: 20px;
+    }
+}
+
 
 /*map*/
 
