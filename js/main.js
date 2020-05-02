@@ -42,3 +42,4 @@ for (var i = 0; i < iconBx.length; i++) {
     $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
+
