@@ -141,12 +141,8 @@
              <div>
                 <div class="text">
                     <h2 class="text-white">Facebook </h2>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Expedita recusandae quas odit dolores, ipsam, 
-                    quia corrupti dolorum porro aspernatur pariatur aliquid? 
-                    Ab et temporibus architecto quas, repudiandae fuga eius distinctio, 
-                    dicta officiis odit quos tempore itaque neque, explicabo maxime minima necessitatibus? 
-                    Placeat similique dicta eos quaerat blanditiis, voluptate eius aliquid?</p>
+                    <p class="text-white">Facebook is our platform for creating events such as car meets and 
+                    competitions</p>
                 </div>
              </div>
           </div>
@@ -154,12 +150,8 @@
              <div>
                 <div class="text">
                     <h2 class="text-white" >Twitter</h2>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Expedita recusandae quas odit dolores, ipsam, 
-                    quia corrupti dolorum porro aspernatur pariatur aliquid? 
-                    Ab et temporibus architecto quas, repudiandae fuga eius distinctio, 
-                    dicta officiis odit quos tempore itaque neque, explicabo maxime minima necessitatibus? 
-                    Placeat similique dicta eos quaerat blanditiis, voluptate eius aliquid?</p>
+                    <p class="text-white">We upload on twitter everyday. Our goal is to update enthusiasts
+                    about any news that comes our way, twitter is a great platform for users to engage with pages they enjoy.</p>
                 </div>
              </div>
           </div>
@@ -167,12 +159,8 @@
              <div>
                 <div class="text">
                     <h2 class="text-white">Youtube </h2>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Expedita recusandae quas odit dolores, ipsam, 
-                    quia corrupti dolorum porro aspernatur pariatur aliquid? 
-                    Ab et temporibus architecto quas, repudiandae fuga eius distinctio, 
-                    dicta officiis odit quos tempore itaque neque, explicabo maxime minima necessitatibus? 
-                    Placeat similique dicta eos quaerat blanditiis, voluptate eius aliquid?</p>
+                    <p class="text-white">We use Youtube to watch other peoples reviews of cars to 
+                    better ourselves, taking in other peoples opinions is always a good way to learn.</p>
                 </div>
              </div>
           </div>
@@ -180,12 +168,8 @@
              <div>
                 <div class="text">
                     <h2 class="text-white">Instagram</h2>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Expedita recusandae quas odit dolores, ipsam, 
-                    quia corrupti dolorum porro aspernatur pariatur aliquid? 
-                    Ab et temporibus architecto quas, repudiandae fuga eius distinctio, 
-                    dicta officiis odit quos tempore itaque neque, explicabo maxime minima necessitatibus? 
-                    Placeat similique dicta eos quaerat blanditiis, voluptate eius aliquid?</p>
+                    <p class="text-white">We use Instagram to post pictures of cars that we feel are the best in the
+                    buisness. We also follow back any enthusiasts from this page!</p>
                 </div>
              </div>
           </div>
@@ -219,7 +203,7 @@
 
 	 <!-- Reviews-->
  <section class="reviews">
-	<div class="container">
+	<div class="container ">
 
   
        <h1 class="my-4">Reviews -
@@ -236,6 +220,8 @@
                 </h4>
                <p class="card-text">As soon as you start the New Ford Mustang, you’ll fire up a range of advanced technologies that enhance your driving experience in every way. For example, the new 12” digital instrument cluster delivers invaluable information, all optimised to match the drive mode: Normal, Sport+, Snow/Wet, Track, and Drag Strip.</p>
            </div>
+           
+
       </div>
        </div>
         <div class="col-lg-6 mb-4">
@@ -247,6 +233,7 @@
           </h4>
           <p class="card-text">The newly developed four-cylinder 2.0 T-GDi engine is highly responsive with a rich torque curve supported by an over boost function that temporarily increases torque by 8%. i30 N features front-wheel drive and a six-speed manual transmission.</p>
         </div>
+        
       </div>
     </div>
     <div class="col-lg-6 mb-4">
@@ -297,6 +284,35 @@
 	</div>
  </section>
 	<!-- Closing Reviews-->
+    <section class="d-none d-lg-block">
+    <div class="ratings-body ">
+           <div class="rating">
+              <input type="radio" name="star" class="star1" id="star1" checked="checked">
+                <label for="star1">
+                 <i class="fas fa-star fa-2x"></i>
+                 <h4>Loved it!</h4>
+              </label>
+              <input type="radio" name="star" id="star2">
+                <label for="star2">
+                 <i class="far fa-smile fa-2x"></i>
+                 <h4>Liked it it!</h4>
+              </label>
+              <input type="radio" name="star" id="star3">
+                <label for="star3">
+                 <i class="far fa-meh fa-2x"></i>
+                 <h4>It's ok</h4>
+              </label>
+              <input type="radio" name="star" id="star4">
+                <label for="star4">
+                 <i class="far fa-frown fa-2x"></i>
+                 <h4>Not good</h4>
+              </label>
+              <h2 class="text-ratings">Do You Like this site?</h2>
+           </div>
+           </div>
+    
+    
+    </section>
     
     <!-- Footer -->
   <footer class="bg-dark">
@@ -369,6 +385,15 @@
                 <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
                 
                 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-16JK-HgdtMTjM7Pog3IHasRcXqRBS9s&callback=initMap"></script>
+
+                <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 400, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000 // values from 0 to 3000, with step 50ms
+      });
+  </script>
 
  </body>
 

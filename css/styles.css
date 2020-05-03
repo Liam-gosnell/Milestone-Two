@@ -602,6 +602,8 @@ transition: all 0.2s ease-out;
   background: #f9f9f9;
 }
 
+
+
 a {
   color: #333;
   text-decoration: none;
@@ -631,9 +633,7 @@ a {
   margin-bottom: 2rem;
 }
 
-.card-reviews img {
-  
-}
+
 
 .card-reviews > div {
   padding: 2rem;
@@ -668,6 +668,97 @@ a {
 }
 
 
+/*ratings*/
+
+.ratings-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    background: #fff;
+}
+
+.rating{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    top: 30px;
+    padding-top: 50px;
+
+}
+
+.rating input{
+    display: none;
+}
+
+.rating label{
+    position: relative;
+    width: 0;
+    height: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+    text-align: center;
+    opacity: 0;
+}
+
+.rating:hover label{
+    width: 160px;
+    opacity: 0.2;
+}
+
+.rating input:hover + label,
+.rating input:checked + label {
+    
+    opacity: 1;
+    width: 100px;
+}
+
+.rating label h4 {
+    color: #fff;
+    font-size: 24px;
+    padding-top: 10px;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateY(-50px) scale(0);
+    transition: 0.5s;
+}
+
+.rating input:hover + label h4,
+.rating input:checked + label h4 {
+   
+    opacity: 0;
+    transform: translateY(0) scale(1);
+
+}
+
+.text-ratings{
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translatex(-50%);
+    color: #fff;
+    width: 500px;
+    font-weight: 600px;
+    letter-spacing: 2px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 36px;
+    color: black;
+}
+
+.fa-smile{
+    color: orange!important;
+}
+
+.fa-star {
+    color: green!important;
+}
+
+.fa-meh{
+    color: grey!important;
+}
   /* contact page */
 .pb-100 {
 	padding-bottom: 100px;
