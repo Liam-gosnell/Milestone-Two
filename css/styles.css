@@ -667,6 +667,18 @@ a {
     margin-top: 50px;
 }
 
+.inner{
+    overflow: hidden;
+
+}
+
+.inner img{
+    transition: all 2.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(0.8);
+}
 
 /*ratings*/
 
@@ -898,4 +910,9 @@ textarea {
 }
 .contact-form input:focus, textarea:focus {
 	border-color: #478ac0;
+}
+
+/*media*/
+.video{
+    height: 80vh;
 }
