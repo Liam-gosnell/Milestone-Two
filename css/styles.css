@@ -730,6 +730,19 @@ a {
 	z-index: 2;
 	color: #fff;
 }
+
+@media only screen and (max-width: 768px){
+    .contact{
+        background-image: url("../images/g-wagon.jpeg");
+        background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	z-index: 2;
+	color: #fff;
+    }
+}
+
 .contact-form input,
 textarea {
 	width: 100%;
