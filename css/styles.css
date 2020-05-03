@@ -66,9 +66,11 @@ background-color: #fff;
   
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     .masthead {background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../images/mustang-mobile.jpeg");}
 }
+
+
 
 
 
@@ -287,21 +289,37 @@ section .section-title{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 80vh;
     
 }
 
+@media only screen and (max-width: 767px){
+    .container-social .icon .iconBx{
+    position: relative;
+    width: calc(55% - 40px)!important;
+    margin: 0 30px 30px 0;
+    padding: 0 25px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    transition: 0.5s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .07);
+}
+
+}
 
 
-
-.container-1{
+.container-social{
     position: relative;
     display: flex;
     flex-wrap: wrap;
     width: 1100px;
 }
 
-.container-1 .icon {
+.container-social .icon {
 position: relative;
 width: 50%;
 text-align: center;
@@ -311,7 +329,7 @@ align-items: center;
 flex-wrap: wrap;
 }
 
-.container-1 .icon .iconBx{
+.container-social .icon .iconBx{
     position: relative;
     width: calc(50% - 40px);
     margin: 0 30px 30px 0;
@@ -326,18 +344,18 @@ flex-wrap: wrap;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .07);
 }
 
-.container-1 .icon .iconBx.active {
+.container-social .icon .iconBx.active {
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
 }
 
-.container-1 .icon .iconBx img{
+.container-social .icon .iconBx img{
     max-width: 100%;
     
     transition: 0.5s;
     transform: scale(0.8);
 }
 
-.container-1 .icon .iconBx.active img {
+.container-social .icon .iconBx.active img {
     filter: grayscale(0);
     transform: scale(1);
 }
