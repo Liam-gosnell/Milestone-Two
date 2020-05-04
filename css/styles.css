@@ -225,10 +225,10 @@ background-color: #fff;
 }
 
 .circle-reviews .fas {
-    color: #5bc0de;
+    color: #fff;
     margin: 0;
     padding: 0;
-    animation: animate 2s linear infinite;
+    animation: animate 3s linear infinite;
 }
 
 @keyframes animate 
@@ -236,37 +236,39 @@ background-color: #fff;
     0%
     {
         transform: translateY(-50px);
-        text-shadow: 0 50px 0 #ff6363;
+        text-shadow: 0 50px 0 #fff;
     }
     20%
     {
         transform: translateY(10px);
-        text-shadow: 0 10px 0 #ff6363;
+        text-shadow: 0 10px 0 #fff;
     }
     40%
     {
         transform: translateY(10px);
-        text-shadow: 0 -10px 0 #ff6363;
+        text-shadow: 0 -10px 0 #fff;
     }
     60%
     {
         transform: translateY(10px);
-        text-shadow: 0 0px 0 #ff6363;
+        text-shadow: 0 0px 0 #fff;
     }
     100%
     {
         transform: translateY(100px);
-        text-shadow: 0 -50px 0 #ff6363;
+        text-shadow: 0 -50px 0 #fff;
     }
 }
+
+
 
 .circle-reviews:before {
  content: 'SCROLL DOWN';
  position: absolute;
- color: #000;
+ color: #fff;
  font-family: Arial, Helvetica, sans-serif;
- font-size: 8px;
- left: 10px;
+ font-size: 6px;
+ left: 8px;
  top: 12px;
 }
 
@@ -283,6 +285,17 @@ background-color: #fff;
         top: 50px;
     }
 }
+
+
+.review-content{
+    background-color: #000839;
+}
+
+.btn-info{
+    background: #000839;
+}
+
+
 
 
 /*What we do */
@@ -334,7 +347,7 @@ section .section-title{
 	font-family: FontAwesome;
     position: absolute;
     font-size: 39px;
-    color: #ff6363;
+    color: #c81912;
     left: 0;
 	-webkit-transition: -webkit-transform .2s ease-in-out;
     transition:transform .2s ease-in-out;
