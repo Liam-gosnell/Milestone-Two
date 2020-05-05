@@ -441,10 +441,19 @@ flex-wrap: wrap;
 
 .container-social .icon .iconBx img{
     max-width: 100%;
-    
     transition: 0.5s;
     transform: scale(0.8);
 }
+
+@media only screen and (max-width: 768px){
+
+.container-social .icon .iconBx img{
+    max-width: 200%;
+    transition: 0.5s;
+    transform: scale(0.8);
+}
+}
+
 
 .container-social .icon .iconBx.active img {
     filter: grayscale(0);
