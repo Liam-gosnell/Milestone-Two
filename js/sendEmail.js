@@ -7,10 +7,12 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            location.reload();
         },
         function(error) {
             console.log("FAILED", error);
         }
     );
-    return ;  // To block from loading a new page
+    
+    return false;  // To block from loading a new page
 }
