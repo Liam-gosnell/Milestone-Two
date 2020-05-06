@@ -58,7 +58,7 @@ background-color: #fff;
   position: relative;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../images/mustang-cobra.jpeg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../images/red-must.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -66,11 +66,9 @@ background-color: #fff;
   
 }
 
-@media only screen and (max-width: 767px){
-    .masthead {background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../images/mustang-mobile.jpeg");}
+@media only screen and (max-width: 545px){
+    .masthead {background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../images/must-phone.jpeg");}
 }
-
-
 
 
 
@@ -372,7 +370,7 @@ section .section-title{
 
 /*social*/
 .social-body{
-    background: url('../images/st.jpeg')  no-repeat center center fixed;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url('../images/back-social.jpeg')  no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -382,6 +380,10 @@ section .section-title{
     align-items: center;
     min-height: 80vh;
     
+}
+
+@media only screen and (max-width: 545px){
+    .social-body {background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../images/jeep.jpeg");}
 }
 
 @media only screen and (max-width: 767px){
@@ -496,7 +498,11 @@ flex-wrap: wrap;
     p{
         padding-right: 20px;
     }
+
+    
 }
+
+
 
 
 /*map*/
