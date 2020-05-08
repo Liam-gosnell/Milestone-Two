@@ -92,12 +92,6 @@ by having 5 clear sections that had exact purposes. </p>
 ![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/Page_3.png "About wireframe")
 
 
-
-<h2>Surface</h2>
-
-
-
-
 # Technologies
 
 <h4>1. HTML</h4>
