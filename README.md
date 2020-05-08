@@ -75,12 +75,15 @@ by having 5 clear sections that had exact purposes. </p>
 
 <h2>Skeleton</h2>
 
+<p>These wireframes were created for this project to visualize the difference between large and small screen views, and how the website is responding the same. These wireframes were made with mockflow.</p>
 
 ![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/page1.png "About wireframe")
 ![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/page2.png "About wireframe")
 ![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/page3.png "About wireframe")
 ![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/Page_2.png "About wireframe")
 ![About wireframe](https://raw.githubusercontent.com/Liam-gosnell/Milestone-Two/master/wireframes/Page_3.png "About wireframe")
+
+
 
 <h2>Surface</h2>
 
@@ -208,7 +211,7 @@ This website helped me with google maps and google places API to get for my proj
 <p>All photos in the callout and car sections are taken from <a href="https://unsplash.com/">Unsplash</a>, a stock image library.
 The video on the about page was taken from <a href="https://coverr.co/search?q=car">Coverr</a>, a video library.
 </p>
-git
+
 <h3>Acknowledgements</h3>
 
 <p>
