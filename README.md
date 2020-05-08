@@ -122,9 +122,9 @@ and I will use in the future.
 # Testing
 
 <h4>Online checkers</h4>
-* <a href="https://validator.w3.org/#validate_by_input">W3C Validator</a> - For HTML.
-* <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">JIGSAW W3C Validator</a> - For CSS.
-* <a href="https://jshint.com/">JsHint</a> - For Javascript.
+1.<a href="https://validator.w3.org/#validate_by_input">W3C Validator</a> - For HTML.
+2.<a href="https://jigsaw.w3.org/css-validator/#validate_by_input">JIGSAW W3C Validator</a> - For CSS.
+3.<a href="https://jshint.com/">JsHint</a> - For Javascript.
 
 <h4>Chrome Dev Tools</h4>
 <p>I used Dev Tools to check if there was an error on my page. 
@@ -182,26 +182,33 @@ This lets me protect my work against any unexpected error such as delete somethi
 * Once selected, I refreshed the page and a link was generated in the GitHub pages section to my website, which I then changed to my own domain name .
 * <a href="https://dailydriverss.com/">Website Link</a>
 
+<h5>To run this project locally</h5>
+
+* Follow this link to the <a href="https://github.com/Liam-gosnell/Milestone-Two">Github repository</a>
+* Click on the 'Clone or Download' button.
+* Copy the URL provided.
+* Open a bash terminal, move to your desired directory.
+* Type 'git clone' and paste in the URL.
+
 
 # Credits
 <h3>Content</h3>
 
-<p>All content was written by me</p>
+* The Slack community which people who are there trying to help each other with the 
+skills they've learned for coding and can receive from the other students is a great tool to have.
+* <a href="https://www.w3schools.com/">W3schools</a> - I used this to ensure I was entering all the information required correctly on my HTML 
+and CSS and even for helping me with the functions on JavaScript.
+* <a href="https://developers.google.com/maps/documentation/javascript/tutorial">Google Maps Javascript API documentation</a> - 
+This website helped me with google maps and google places API to get for my project what I need with the simple explanation for it.
+* <a href="https://www.emailjs.com/">EmailJs</a> - This website helps me to get emails with the Email API implemented on the website when a user sends an enquiry through the contact form.
+* <a href="https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog">Online Tutorials channel on youtube</a> - This page helped me with css/javascript animations for my site.
 
 <h3>Media</h3>
 
 <p>All photos in the callout and car sections are taken from <a href="https://unsplash.com/">Unsplash</a>, a stock image library.
-All photos in the blog section are taken from <a href="https://pexels.com/">Pexels</a>, a stock image library.
+The video on the about page was taken from <a href="https://coverr.co/search?q=car">Coverr</a>, a video library.
 </p>
-
-<p>The contact form was found from <a href="https://bootsnipp.com/snippets/N6bPx">This site</a>.
- </p>
-
- <p> The Blog section was found from  <a href="https://bootsnipp.com/snippets/2A3br">This site</a>.
- </p>
- <p> The scroll-spy was found from  <a href="https://www.youtube.com/watch?v=Iy96iPwzY18">This site</a>.
- </p>
-
+git
 <h3>Acknowledgements</h3>
 
 <p>
