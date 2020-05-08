@@ -4,8 +4,16 @@
 <p>Stream Two Project: Interactive Frontend Development - Code Institute<p>
 
 <p> This is a website based on my idea of a car review wesbite.
-This website showcases Car reviews, Images, Blog posts and a contact form with google maps api.
+This website showcases Car reviews, Images, Social media posts, a  google maps api for locations for factorys, youtube videos and a contact page.
+I have external links to review websites for each car , I used links from <a href="https://www.carwow.co.uk/">Carwow</a>.
 </p>
+
+<p>I decide to make a responsive and interactive website using HTML, CSS, and JavaScript for this website. 
+Using HTML5 and CSS to make it responsive and applying the skills learned from the User-Centric Frontend 
+module of Full Stack Web Developer course from Code Institute. 
+This site uses Javascript to implement maps that show interactive markers for factorys.</p>
+
+<p></p>
 
 
 # Demo 
@@ -92,14 +100,14 @@ by having 5 clear sections that had exact purposes. </p>
 
 # Technologies
 
-<h4>1.HTML</h4>
-<h4>2.CSS</h4>
-<h4>3.Bootstrap (4.3.1)</h4>
-<h4>4.Javascript</h4>
-<h4>5.jQuery3.2.1</h4>
-<h4>Font Awesome</h4>
-<h4>Google maps/places JavaScript API</h4>
-<h4>EmailJs</h4>
+<h4>1. HTML</h4>
+<h4>2. CSS</h4>
+<h4>3. Bootstrap (4.3.1)</h4>
+<h4>4. Javascript</h4>
+<h4>5. jQuery3.2.1</h4>
+<h4>6. Font Awesome</h4>
+<h4>7. Google maps/places JavaScript API</h4>
+<h4>8. EmailJs</h4>
 
 
 ## Features
@@ -209,7 +217,8 @@ This website helped me with google maps and google places API to get for my proj
 <h3>Media</h3>
 
 <p>All photos in the callout and car sections are taken from <a href="https://unsplash.com/">Unsplash</a>, a stock image library.
-The video on the about page was taken from <a href="https://coverr.co/search?q=car">Coverr</a>, a video library.
+The video on the about page was taken from <a href="https://coverr.co/search?q=car">Coverr</a>, a video library. The youtube videos on the media page 
+were taken from <a href="https://www.youtube.com/">Youtube</a>.
 </p>
 
 <h3>Acknowledgements</h3>
