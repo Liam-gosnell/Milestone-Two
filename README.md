@@ -37,12 +37,12 @@ A live demo can be found [here](https://dailydriverss.com/).
 * As a person looking for Information on vehicles I expect a contact form to send questions.
 * As an enthusiast, I want to be able to email the website creators with any ideas for the website.
 
-### Blog
+### Social
 
-* As a user of this site, I want to be able to see blog posts about current affairs in the automotive industry.
-* As a user, I want the blog to be updated with new content daily.
-* As an automotive journalist, I want to be able to send any blog posts that I have to the website.
-* As a user, I want all the links to be in working order and to locate me to the information from the blog posts.
+* As a user of this site, I want to be able to see social posts about current affairs in the automotive industry.
+* As a user, I want the social to be updated with new content daily.
+* As an automotive journalist, I want to be able to send any social posts that I have to the website.
+* As a user, I want all the links to be in working order and to locate me to the information from the social posts.
 
 ### Home Page
 
@@ -94,33 +94,93 @@ by having 5 clear sections that had exact purposes. </p>
 <h4>3.Bootstrap (4.3.1)</h4>
 <h4>4.Javascript</h4>
 <h4>5.jQuery3.2.1</h4>
+<h4>Font Awesome</h4>
+<h4>Google maps/places JavaScript API</h4>
+<h4>EmailJs</h4>
 
-# Features
 
-<p>This Navbar is responsive, it will collapse down while on a mobile device. The naviagtion changes colour when scrolling past the callout.
-I used scroll-spy to make the Navigation through the site smoother and for ease of use.</p>
+## Features
 
-<h3>Features Left to Implement</h3>
+<h2> Current Features </h2>
 
-<p>In the future, I would like link all the reviews to my very own blog and make a buisness out of this website.
-I would like to do branding and marketing to promote Dailydriverss as a blog/reviews wesbite for all automotive enthusiasts.
-</p>
+* DailyDriverss, this is a space where a user can be introduced to all the current news inside the automotive industry.
+The user can look at the map on the home page to see where our best reviews have taken place and the markers are clickable.
+* At the home page there is an animated arrow down icon to tell the user where to continue to keep going through the site,
+this feature is also used on the reviews page.
+* Also on the home page there is a section for the user to give feedback to the site, where the user can chose a icon based on if they enjoy the site.
+* On the reviews page I have used an animation on scroll effect for each review which works really well.
+* The media section has embedded youtube videos to promote youtubers car reviews and another section of photos of cars.
+* On the contact page I have set up email.js so that the contact page is fully functional.
+
+<h3>Future Features</h3>
+
+* In the future I would like to have all the reviwes my very own, This website is something I am very passionate about 
+and I will use in the future.
+* Another Feature I would like to add in the future is different stages of subscription for the user.
 
 
 # Testing
 
-<p>This site was tested across multiple browsers and on multiple mobile devices to enusre compatability and responsiveness.</p>
+<h4>Online checkers</h4>
+* <a href="https://validator.w3.org/#validate_by_input">W3C Validator</a> - For HTML.
+* <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">JIGSAW W3C Validator</a> - For CSS.
+* <a href="https://jshint.com/">JsHint</a> - For Javascript.
+
+<h4>Chrome Dev Tools</h4>
+<p>I used Dev Tools to check if there was an error on my page. 
+Then, I changed what was wrong in the dev tools and I would be able to see the changes in a live update into my browser.
+Once I've found the issue I went back to gitpod and make the changes there.</p>
+
+<h4>Manual Testing</h4>
+
+<p>I have tested the website on:</p>
+
+* Google Chrome
+* Apple Safari
+* Internet Explorer
+* Mozilla Firefox
+
+<h4>Devices</h4>
+
+* Iphone X
+* Iphone 8
+* Iphone 6/7
+* iPad 
+* iPad Pro
+* Pixel
+* Pixel 2XL
+* Galaxy Note 3
+* Kindle fire XDH
+* Galaxy s5
+
+<h4>De-Bugging</h4>
+
+<p>During the process of this website, I found little bugs but nothing I couldn't fix.</p>
+
+<p>A good example of this is when the website goes responsive on mobile devices the images change to scaled down versions.
+Also the arrow down animations scale down on mobile devices.</p>
 
 
 # Deployment
 
-<p>This site is hosted using GitHub pages, deployed directly from the master branch. 
-In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.</p>
+<p>My website was created using gitpod and I created an external repository on GitHub and linked it there in a new repository. 
+This lets me protect my work against any unexpected error such as delete something essential to keep the project working.</p>
 
-<p>To run locally, you can clone this repository directly into the editor of your choice 
-by pasting git clone  "https://github.com/Liam-gosnell/Milestone-Two" into your terminal. 
-To cut ties with this GitHub repository, type git remote rm origin into the terminal.
-</p>
+* I created a new repository in Github.
+* I opened the repository in Gitpod.
+* Created all my folders and files.
+* Inside the bash terminal, entered 'git init'.
+* Entered 'git add .' into the terminal.
+* Entered 'git commit' into the terminal and created my initial commit.
+* Followed the below steps to deploy the site to GitHub pages.
+
+<p>To deploy this website to GitHub pages:</p>
+
+* Clicked the Milestone2 from my GitHub dashboard.
+* Select 'Settings' from the menu bar.
+* From the GitHub pages section, I chose 'master branch' from the dropdown menu.
+* Once selected, I refreshed the page and a link was generated in the GitHub pages section to my website, which I then changed to my own domain name .
+* <a href="https://dailydriverss.com/">Website Link</a>
 
 
 # Credits
